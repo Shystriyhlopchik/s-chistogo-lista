@@ -60,9 +60,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .cover {
     min-height: 221px;
+    padding-top: 7px;
+    padding-bottom: 5px;
     background-image: url("../images/cover.svg");
     background-repeat: no-repeat;
-    background-size: 95% auto;
+    background-size: 94% auto;
     background-position: right bottom;
 }
 
@@ -73,6 +75,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     line-height: 72px;
     margin-left: 20px;
     margin-right: 24px;
+    color: #fff;
 }
 
 .accent-span {
@@ -88,7 +91,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .intro {
-    padding: 30px 20px 13px 20px;
+    padding: 30px 20px 37px 20px;
 }
 
 .intro__heading {
@@ -107,10 +110,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .intro__title {
     width: 60%;
+    line-height: 19px;
 }
 
-.intro__main-text p {
-    margin-bottom: 24px;
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    line-height: 21.6px;
 }
 
 .reasons {
@@ -133,17 +140,17 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .content-section__list {
     display: flex;
     flex-direction: column;
-    margin: 32px 20px 0 20px;
+    margin: 32px 0px 0 16px;
     gap: 16px;
 }
 
 .content-section__list-item {
-    font-size: 16px;
-    line-height: 22px;
+    line-height: 21.6px;
 }
 
 .content-section__list-accent {
     font-weight: 700;
+    line-height: 21.6px;
 }
 
 .how-to {
@@ -167,6 +174,12 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     padding: 20px;
 }
 
+.card__author {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .card_theme_dark {
     background-color: #343434;
 }
@@ -182,10 +195,12 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .card__author-photo {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
 }
 
 .card__author-name {
     font-weight: 700;
+    line-height: 22px;
 }
 
 .card__content {
@@ -201,7 +216,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-weight: 500;
 }
 .card__text {
-    line-height: 22px;
+    line-height: 21.6px;
 }
 
 .footer {
@@ -220,6 +235,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     width: 73px;
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
 }
 
 .footer__links a {
