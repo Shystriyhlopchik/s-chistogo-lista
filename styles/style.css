@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     margin-bottom: 24px;
 }
 
-.intro__heading h2, time{
+.intro__heading h2, time {
     font-family: "Inter", "Times New Roman", serif;
     font-size: 16px;
     font-weight: 400;
